@@ -1,3 +1,30 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">SaW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil <span class="sr-only">(courant)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Un selfie</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Ta recherche ..."
+                    aria-label="Ta recherche ....">
+                <button class="btn btn-danger my-2 my-sm-0" type="submit">Recherche</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+
 <h1>{{title}}</h1>
 <h2>{{subTitle}}</h2>
 <img *ngIf="LogoDisplay; else contrainteif" src="https://cdn.vox-cdn.com/thumbor/oIRY68qFM3SiUyNQWoYwt_c3BM4=/0x0:2560x1600/1200x800/filters:focal(1662x443:2070x851)/cdn.vox-cdn.com/uploads/chorus_image/image/54121337/smurfscover.0.jpg" alt="Smtrf" style="width: 400px;">
