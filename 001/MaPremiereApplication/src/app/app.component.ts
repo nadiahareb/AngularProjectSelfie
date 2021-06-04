@@ -17,6 +17,7 @@ export class AppComponent {
     {image :'',person: {nom :'Kamel', selfies:[]}},
     {image :'',person: {nom :'Yassmine', selfies:[]}},
     {image :'',person: {nom :'Yassine', selfies:[]}}
+   
   
   ]
  
