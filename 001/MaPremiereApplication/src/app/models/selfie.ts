@@ -5,6 +5,7 @@ import { Person } from "./person";
 export class Selfie {
     image:string = '';
     person: Person;
+    titre:string ='';
 
     constructor(){
 
