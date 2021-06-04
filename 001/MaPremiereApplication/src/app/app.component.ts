@@ -10,15 +10,6 @@ export class AppComponent {
   title = 'MonSelfie';
   subTitle ='Sous titre Selfie';
   LogoDisplay = false; 
-  lesSelfies:Selfie[]=// [new Selfie(), new Selfie(), new Selfie()]
-  [ 
-    
-    {image :'',person: {nom :'Nadia', selfies:[]}},
-    {image :'',person: {nom :'Kamel', selfies:[]}},
-    {image :'',person: {nom :'Yassmine', selfies:[]}},
-    {image :'',person: {nom :'Yassine', selfies:[]}}
-   
-  
-  ]
+ 
  
 }
